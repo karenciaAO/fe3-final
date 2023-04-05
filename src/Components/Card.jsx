@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import doctor from '../assets/doctor1.png'
+import doctor from '../assets/doctor.png'
 import { Link } from 'react-router-dom';
 import { useContextGlobal } from "./utils/global.context";
 
