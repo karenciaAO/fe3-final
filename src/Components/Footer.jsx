@@ -17,10 +17,10 @@ const Footer = () => {
           <img className='dh-logo' src={DH} alt='DH-logo' />
         </div>
         <div className='rrss'>
-          <img src={facebook} alt="facebook" />
-          <img src={reddit} alt="reddit" />
-          <img src={instagram} alt="instagram" />
-          <img src={twitter} alt="twitter" />
+          <a href='https://www.facebook.com/'><img src={facebook} alt="facebook" /></a>
+          <a href='https://www.reddit.com'><img src={reddit} alt="reddit" /></a>
+          <a href='https://www.instagram.com'><img src={instagram} alt="instagram" /></a>
+          <a href='https://twitter.com/home?lang=es'><img src={twitter} alt="twitter" /></a>
         </div>
       </div>
     
