@@ -4,7 +4,7 @@ import logo from '../assets/logo.png'
 import { useContextGlobal } from './utils/global.context'
 
 const Navbar = () => {
-  // const {handleThemeChange, state} = useContextGlobal()
+  const {handleThemeChange, state} = useContextGlobal()
   return (
     <nav>
       
@@ -13,7 +13,7 @@ const Navbar = () => {
         <Link to='/'><h3>Home</h3></Link>
         <Link to='/favs'><h3>Favs</h3></Link>
         <Link to='/contact'><h3>Contact</h3></Link>
-        {/* <button onClick={handleThemeChange}>{state.theme === 'dark' ? '☀️' : '🌙' }</button> */}
+        <button onClick={handleThemeChange}>{state.theme === 'dark' ? '☀️' : '🌙' }</button>
       </div>
     </nav>
   )
